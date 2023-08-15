@@ -68,3 +68,21 @@ while (continuar) {
 
     facturacliente1.descuentoIva();
     console.log(facturacliente1.precioConsulta);
+
+   const listadoNombrePaciente = [];
+   let cantidad = parseInt (prompt ("Ingrese cantidad de factura cliente"));
+
+       do {
+
+            let nombre = prompt("Ingrese nombre de paciente");
+            listadoNombrePaciente.push(nombre);
+
+        } while (listadoNombrePaciente.lenght !=cantidad);
+
+        alert(listadoNombrePaciente.join("\n"));
+        console.log(listadoNombrePaciente);
+
+
+
+
+
